@@ -1,0 +1,22 @@
+html {
+  background-color: #0060FF;
+  color: white;
+}
+
+body {
+  margin: 5%;
+}
+
+#navbar li {
+  list-style: none;
+  display: inline;
+  border: 2px black solid;
+  color: red;
+  background-color: blue;
+  margin: 20px 10px; 
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
