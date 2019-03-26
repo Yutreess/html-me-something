@@ -7,14 +7,27 @@ body {
   margin: 5%;
 }
 
+#title {
+  text-align: center;
+}
+
+#navbar {
+  text-align: center;
+}
+
 #navbar li {
+  color: black;
+  background-color: yellow;
   list-style: none;
   display: inline;
   border: 2px black solid;
-  color: red;
-  background-color: blue;
-  margin: 20px 10px; 
+  border-radius: 20px;
+  padding: 10px 20px; 
   font-weight: bold;
+}
+
+#navbar li a {
+  text-decoration: none;
 }
 
 ul {
