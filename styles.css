@@ -11,28 +11,8 @@ ul {
   list-style-type: none;
 }
 
-section {
-  border: 1px black solid;
-  overflow: auto;
-}
-
-.nation-name {
-  font-size: 2em;
-  text-align: center;
-  background-color: #00B0FF;
-  padding: 1px;
-}
-
-.nation-flag {
-  float: left;
-}
-
-.nation-flag img {
-  display: block;
-}
-
-.nation-desc {
-  margin-left: 650px;
+p {
+  font-size: 1.2em;
 }
 
 #title {
@@ -54,8 +34,32 @@ section {
   border-radius: 20px;
   padding: 10px 20px; 
   font-weight: bold;
+  font-size: 2em;
 }
 
 #navbar li a {
   text-decoration: none;
+}
+
+.nation-name {
+  font-size: 1.7em;
+  text-align: center;
+  background-color: #00B0FF;
+  padding: 1px;
+}
+
+.nation-flag {
+  float: left;
+}
+
+.nation-flag img {
+  display: block;
+}
+
+.nation-desc {
+  margin-left: 650px;
+}
+
+.nation-desc h2 {
+  font-size: 1.4em;
 }
